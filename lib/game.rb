@@ -63,9 +63,9 @@ def won?
   
   end
   
-  if @winningcombo == []
-    false
-  end
+  # if @winningcombo == []
+  #   false
+  # end
   
 end
 
