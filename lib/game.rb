@@ -58,7 +58,7 @@ def won?
     end
     
     if @winningcomboforxcount == 3 || @winningcomboforocount == 3
-      @winningcombo = [possiblewiningcombo]
+      @winningcombo << possiblewiningcombo
       @winningcombo
     end
   end
