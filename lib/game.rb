@@ -43,7 +43,7 @@ def current_player
 end 
 
 def won? 
-  @winningcombo = ""
+  @winningcombo = []
   WIN_COMBINATIONS.each do |possiblewiningcombo|
     possiblewiningcombo.each do |specifcnumber|
     @winningcomboforxcount = 0 
