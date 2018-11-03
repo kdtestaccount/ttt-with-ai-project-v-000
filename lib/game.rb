@@ -53,7 +53,6 @@ def won?
       elsif @board.cells[specifcnumber] == "O"
         @winningcomboforocount = @winningcomboforocount + 1
       else 
-        nil
       end 
     end
     
@@ -61,6 +60,7 @@ def won?
       @winningcombo << possiblewiningcombo
       @winningcombo
     end
+  
   end
   
   if @winningcombo == []
