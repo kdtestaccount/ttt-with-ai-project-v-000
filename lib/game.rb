@@ -45,9 +45,9 @@ end
 def won? 
   @winningcombo = []
   WIN_COMBINATIONS.each do |possiblewiningcombo|
-    possiblewiningcombo.each do |specifcnumber|
     @winningcomboforxcount = 0 
     @winningcomboforocount = 0
+    possiblewiningcombo.each do |specifcnumber|
       if @board.cells[specifcnumber] == "X" 
         @winningcomboforxcount = @winningcomboforxcount + 1 
       elsif @board.cells[specifcnumber] == "O"
