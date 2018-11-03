@@ -56,15 +56,18 @@ def won?
         nil
       end 
     end
-    
+   end
+   
     if @winningcomboforxcount == 3 || @winningcomboforocount == 3
       @winningcombo << possiblewiningcombo
       @winningcombo
     end
-  end
+ 
+  
   if @winningcombo == []
     false
   end
+  
 end
 
 
