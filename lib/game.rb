@@ -62,7 +62,7 @@ def won?
       @winningcombo
     end
   end
-  if @winningcombo == ""
+  if @winningcombo == []]
     false
   end
 end
