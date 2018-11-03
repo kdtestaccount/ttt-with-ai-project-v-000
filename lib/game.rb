@@ -58,11 +58,11 @@ def won?
     end
     
     if @winningcomboforxcount == 3 || @winningcomboforocount == 3
-      @winningcombo[0] << possiblewiningcombo
+      @winningcombo << possiblewiningcombo
       @winningcombo
     end
   end
-  if @winningcombo == []]
+  if @winningcombo == []
     false
   end
 end
